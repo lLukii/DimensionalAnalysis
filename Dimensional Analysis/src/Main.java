@@ -38,6 +38,7 @@ public class Main {
         }
     }
     public void run(){
+        scan = new Scanner(System.in);
         addEdge("Feet", "Inches", 12);
         addEdge("Inches", "Centimeters", 2.54);
         addEdge("Meters", "Centimeters", 100);
